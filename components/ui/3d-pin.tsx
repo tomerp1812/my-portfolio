@@ -3,6 +3,7 @@ import React, { useState } from "react";
 import { motion } from "framer-motion";
 
 import { cn } from "@/lib/utils";
+import { useRouter } from 'next/router';
 
 export const PinContainer = ({
   children,
@@ -17,6 +18,7 @@ export const PinContainer = ({
   className?: string;
   containerClassName?: string;
 }) => {
+  const router = useRouter();
   const [transform, setTransform] = useState(
     "translate(-50%,-50%) rotateX(0deg)"
   );
@@ -28,6 +30,12 @@ export const PinContainer = ({
     setTransform("translate(-50%,-50%) rotateX(0deg) scale(1)");
   };
 
+  const handleClick = () => {
+    if (href) {
+      router.push(href);
+    }
+  };
+
   return (
     <div
       className={cn(
@@ -36,6 +44,7 @@ export const PinContainer = ({
       )}
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
+      onClick={handleClick}
     >
       <div
         style={{
