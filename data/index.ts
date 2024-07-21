@@ -74,7 +74,7 @@ export const navItems = [
       id: 1,
       title: "Gaze-Detecting with deep CNN.",
       des: "This Deep Learning model accurately predicts the direction a person is looking in based on an image.",
-      img: "/cnn.jpeg",
+      img: "/cnn.png",
       iconLists: ["/python.svg", "tensorflow-2.svg"],
       link: "https://github.com/tomerp1812/Gaze-Detection",
     },
