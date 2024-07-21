@@ -208,6 +208,11 @@ export const navItems = [
       link: "https://github.com/tomerp1812",
     },
     {
+      id: 2,
+      img: "/cv-icon.svg",
+      link: "/CV-Tomer_Peisikov.pdf",
+    },
+    {
       id: 3,
       img: "/link.svg",
       link: "https://www.linkedin.com/in/tomer-peisikov-69b8671bb/",
