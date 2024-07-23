@@ -29,12 +29,12 @@ const Hero = () => {
                     />
 
                     <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-                        Hi, I&apos;m Tomer, a graduated computer science strudent from the University of Bar-Ilan.
+                        Hi, I&apos;m Tomer, a computer science graduate from Bar-Ilan University.
                     </p>
 
                     <a href="#about">
                         <MagicButton 
-                            title="Show my work"
+                            title="check my work"
                             icon={<FaLocationArrow />}
                             position='right'
                         />
