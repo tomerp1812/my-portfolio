@@ -11,9 +11,9 @@ const Footer = () => {
                     Read to take <span className='text-purple'>your</span> digital presence to the next level?
                 </h1> */}
                 <p className='text-white-200 md:mt-10 my-5 text-center'>Reach out to me today</p>
-                <a href="tomerp1812@gmail.com">
+                <a href="https://www.linkedin.com/in/tomer-peisikov-69b8671bb/">
                     <MagicButton
-                        title="Let's get in touch"
+                        title="My LinkedIn Profile"
                         icon={<FaLocationArrow />}
                         position="right"
                     />
